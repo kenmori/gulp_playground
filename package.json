@@ -1,8 +1,23 @@
-"name": "gulp-playground",
-"version": "1.0.0",
-"description": "",
-"main": "",
-"author": "kenjimorita",
-"license": "ISC",
-"dependencies": {
+{
+  "name": "gulp_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenmori/gulp_playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenmori/gulp_playground/issues"
+  },
+  "homepage": "https://github.com/kenmori/gulp_playground#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.5"
+  }
 }
