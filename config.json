@@ -1,0 +1,22 @@
+{
+  "root" : {
+    "src": "./src",
+    "dest": "./dest"
+  },
+  "tasks": {
+    "browserSync": {
+      "server" : {
+        "baseDir": "public"
+      }
+    }
+  },
+  "css": {
+    "src": "assets/styles",
+    "dest": "assets/styles",
+    "indentedSyntax": true,
+    "includePaths": [
+      "./node_modules/normalize.css"
+    ]
+  },
+  "extensions": ["sass","scss","css"]
+}
